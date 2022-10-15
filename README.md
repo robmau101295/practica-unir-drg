@@ -12,11 +12,13 @@ python3 main.py <filename> <dup>
   filename: **ruta** al fichero que contiene la lista de palabras, una por línea
   dup: **yes|no**, yes para eliminar palabras duplicadas, no para mantener la lista
 
+Comentarios de Dario Guevara
+Comentario1 
+Comentario2
+
+
 ## Ejemplo ejecución
 El siguiente ejemplo muestra como se ejecutaría el programa usando un fichero ubicado en /user/unir/python-example/palabras.txt
 
----
-```
+
 $ python3 main.py /user/unir/python-example/palabras.txt yes
-```
----
