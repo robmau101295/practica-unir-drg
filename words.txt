@@ -1,0 +1,9 @@
+tecnologia
+dockers
+servidores
+almacenamiento
+procesamiento
+data center
+virtualizacion
+respaldos
+etc
