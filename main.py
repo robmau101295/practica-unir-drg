@@ -5,6 +5,7 @@ Organization: UNIR
 
 import os
 import sys
+from textblob import TextBlob 
 
 DEFAULT_FILENAME = "words.txt"
 DEFAULT_DUPLICATES = False
@@ -47,3 +48,6 @@ if __name__ == "__main__":
         word_list = remove_duplicates_from_list(word_list)
 
     print(sort_list(word_list))
+
+    blob = TextBlob(word_list) 
+    blob.translate(to='en') 
